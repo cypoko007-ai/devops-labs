@@ -1,0 +1,13 @@
+file:/home/lol2/.gitconfig	user.name=cypoko007
+file:/home/lol2/.gitconfig	user.email=cypoko007@gmail.com
+file:/home/lol2/.gitconfig	init.defaultbranch=main
+file:/home/lol2/.gitconfig	pull.rebase=false
+file:/home/lol2/.gitconfig	core.autocrlf=input
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=true
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	remote.origin.url=git@github.com:cypoko007-ai/devops-labs.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+file:.git/config	branch.main.remote=origin
+file:.git/config	branch.main.merge=refs/heads/main
