@@ -1,0 +1,7 @@
+○ backup.service - Backup /var/log to /opt/backups/logs
+     Loaded: loaded (/etc/systemd/system/backup.service; disabled; preset: enabled)
+     Active: inactive (dead) since Mon 2025-09-08 19:04:33 UTC; 44s ago
+TriggeredBy: ● backup.timer
+    Process: 3051 ExecStart=/usr/local/bin/backup.sh (code=exited, status=0/SUCCESS)
+   Main PID: 3051 (code=exited, status=0/SUCCESS)
+        CPU: 772ms

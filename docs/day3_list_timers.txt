@@ -1,0 +1,19 @@
+NEXT                            LEFT LAST                              PASSED UNIT                           ACTIVATES
+Mon 2025-09-08 19:10:00 UTC 4min 41s Mon 2025-09-08 19:00:03 UTC     5min ago sysstat-collect.timer          sysstat-collect.service
+Mon 2025-09-08 19:44:44 UTC    39min Mon 2025-09-08 18:05:43 UTC    59min ago fwupd-refresh.timer            fwupd-refresh.service
+Mon 2025-09-08 23:45:22 UTC 4h 40min Fri 2025-09-05 08:48:45 UTC            - apt-daily.timer                apt-daily.service
+Tue 2025-09-09 00:00:00 UTC 4h 54min Mon 2025-09-08 17:52:06 UTC 1h 13min ago dpkg-db-backup.timer           dpkg-db-backup.service
+Tue 2025-09-09 00:00:00 UTC 4h 54min Mon 2025-09-08 17:52:06 UTC 1h 13min ago logrotate.timer                logrotate.service
+Tue 2025-09-09 00:07:00 UTC  5h 1min -                                      - sysstat-summary.timer          sysstat-summary.service
+Tue 2025-09-09 00:08:35 UTC  5h 3min Mon 2025-09-08 17:55:23 UTC  1h 9min ago motd-news.timer                motd-news.service
+Tue 2025-09-09 00:37:39 UTC 5h 32min Fri 2025-09-05 08:48:45 UTC            - man-db.timer                   man-db.service
+Tue 2025-09-09 02:30:00 UTC       7h -                                      - backup.timer                   backup.service
+Tue 2025-09-09 06:03:06 UTC      10h Mon 2025-09-08 18:31:53 UTC    33min ago apt-daily-upgrade.timer        apt-daily-upgrade.service
+Tue 2025-09-09 17:57:33 UTC      22h Mon 2025-09-08 17:57:33 UTC  1h 7min ago update-notifier-download.timer update-notifier-download.service
+Tue 2025-09-09 18:07:10 UTC      23h Mon 2025-09-08 18:07:10 UTC    58min ago systemd-tmpfiles-clean.timer   systemd-tmpfiles-clean.service
+Sat 2025-09-13 02:55:19 UTC   4 days Fri 2025-09-05 08:48:45 UTC            - update-notifier-motd.timer     update-notifier-motd.service
+Sun 2025-09-14 03:10:37 UTC   5 days Mon 2025-09-08 17:52:11 UTC 1h 13min ago e2scrub_all.timer              e2scrub_all.service
+Mon 2025-09-15 01:33:38 UTC   6 days Mon 2025-09-08 18:41:53 UTC    23min ago fstrim.timer                   fstrim.service
+
+15 timers listed.
+Pass --all to see loaded but inactive timers, too.
