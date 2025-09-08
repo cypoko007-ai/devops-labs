@@ -1,0 +1,12 @@
+[Unit]
+Description=Backup /var/log to /opt/backups/logs
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/backup.sh
+User=root
+Group=root
+
+[Install]
+WantedBy=multi-user.target
