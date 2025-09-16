@@ -1,0 +1,52 @@
+Sep 08 19:24:38 lol2 backup.sh[3422]: tar: Removing leading `/' from member names
+Sep 08 19:24:38 lol2 sudo[3421]: pam_unix(sudo:session): session closed for user root
+Sep 08 19:24:38 lol2 backup.sh[3413]: [backup] created: /opt/backups/logs/logs_2025-09-08_192437.tgz
+Sep 08 19:24:38 lol2 backup.sh[3432]: -rw-r--r-- 1 root root 1.9M Sep  8 19:24 /opt/backups/logs/logs_2025-09-08_192437.tgz
+Sep 08 19:24:38 lol2 systemd[1]: backup.service: Deactivated successfully.
+Sep 08 19:24:38 lol2 systemd[1]: Finished backup.service - Backup /var/log to /opt/backups/logs.
+Sep 08 19:25:13 lol2 systemd[1]: Starting backup.service - Backup /var/log to /opt/backups/logs...
+Sep 08 19:25:13 lol2 sudo[3440]:     root : PWD=/ ; USER=root ; COMMAND=/usr/bin/tar -czf /opt/backups/logs/logs_2025-09-08_192513.tgz --warning=no-file-changed --exclude=*.gz /var/log
+Sep 08 19:25:13 lol2 sudo[3440]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+Sep 08 19:25:13 lol2 backup.sh[3441]: tar: Removing leading `/' from member names
+Sep 08 19:25:14 lol2 sudo[3440]: pam_unix(sudo:session): session closed for user root
+Sep 08 19:25:14 lol2 backup.sh[3437]: [backup] created: /opt/backups/logs/logs_2025-09-08_192513.tgz
+Sep 08 19:25:14 lol2 backup.sh[3447]: -rw-r--r-- 1 root root 1.9M Sep  8 19:25 /opt/backups/logs/logs_2025-09-08_192513.tgz
+Sep 08 19:25:14 lol2 systemd[1]: backup.service: Deactivated successfully.
+Sep 08 19:25:14 lol2 systemd[1]: Finished backup.service - Backup /var/log to /opt/backups/logs.
+Sep 08 19:26:03 lol2 systemd[1]: Starting backup.service - Backup /var/log to /opt/backups/logs...
+Sep 08 19:26:03 lol2 sudo[3453]:     root : PWD=/ ; USER=root ; COMMAND=/usr/bin/tar -czf /opt/backups/logs/logs_2025-09-08_192603.tgz --warning=no-file-changed --exclude=*.gz /var/log
+Sep 08 19:26:03 lol2 sudo[3453]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+Sep 08 19:26:03 lol2 backup.sh[3454]: tar: Removing leading `/' from member names
+Sep 08 19:26:04 lol2 sudo[3453]: pam_unix(sudo:session): session closed for user root
+Sep 08 19:26:04 lol2 backup.sh[3450]: [backup] created: /opt/backups/logs/logs_2025-09-08_192603.tgz
+Sep 08 19:26:04 lol2 backup.sh[3458]: -rw-r--r-- 1 root root 1.9M Sep  8 19:26 /opt/backups/logs/logs_2025-09-08_192603.tgz
+Sep 08 19:26:04 lol2 systemd[1]: backup.service: Deactivated successfully.
+Sep 08 19:26:04 lol2 systemd[1]: Finished backup.service - Backup /var/log to /opt/backups/logs.
+Sep 08 19:27:13 lol2 systemd[1]: Starting backup.service - Backup /var/log to /opt/backups/logs...
+Sep 08 19:27:13 lol2 sudo[3464]:     root : PWD=/ ; USER=root ; COMMAND=/usr/bin/tar -czf /opt/backups/logs/logs_2025-09-08_192713.tgz --warning=no-file-changed --exclude=*.gz /var/log
+Sep 08 19:27:13 lol2 sudo[3464]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+Sep 08 19:27:13 lol2 backup.sh[3465]: tar: Removing leading `/' from member names
+Sep 08 19:27:14 lol2 sudo[3464]: pam_unix(sudo:session): session closed for user root
+Sep 08 19:27:14 lol2 systemd[1]: backup.service: Main process exited, code=exited, status=1/FAILURE
+Sep 08 19:27:14 lol2 systemd[1]: backup.service: Failed with result 'exit-code'.
+Sep 08 19:27:14 lol2 systemd[1]: Failed to start backup.service - Backup /var/log to /opt/backups/logs.
+-- Boot cdb270d52d644b3c9bca4618b3302214 --
+Sep 08 19:36:28 lol2 systemd[1]: Starting backup.service - Backup /var/log to /opt/backups/logs...
+Sep 08 19:36:28 lol2 sudo[1028]:     root : PWD=/ ; USER=root ; COMMAND=/usr/bin/tar -czf /opt/backups/logs/logs_2025-09-08_193628.tgz --warning=no-file-changed --exclude=*.gz /var/log
+Sep 08 19:36:28 lol2 sudo[1028]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+Sep 08 19:36:28 lol2 backup.sh[1029]: tar: Removing leading `/' from member names
+Sep 08 19:36:30 lol2 sudo[1028]: pam_unix(sudo:session): session closed for user root
+Sep 08 19:36:30 lol2 backup.sh[1025]: [backup] created: /opt/backups/logs/logs_2025-09-08_193628.tgz
+Sep 08 19:36:30 lol2 backup.sh[1033]: -rw-r--r-- 1 root root 2.2M Sep  8 19:36 /opt/backups/logs/logs_2025-09-08_193628.tgz
+Sep 08 19:36:30 lol2 systemd[1]: backup.service: Deactivated successfully.
+Sep 08 19:36:30 lol2 systemd[1]: Finished backup.service - Backup /var/log to /opt/backups/logs.
+-- Boot 9db47f6f21c94217bab996d9f562e7d3 --
+Sep 16 07:08:23 lol2 systemd[1]: Starting backup.service - Backup /var/log to /opt/backups/logs...
+Sep 16 07:08:26 lol2 sudo[742]:     root : PWD=/ ; USER=root ; COMMAND=/usr/bin/tar -czf /opt/backups/logs/logs_2025-09-16_070823.tgz --warning=no-file-changed --exclude=*.gz /var/log
+Sep 16 07:08:26 lol2 sudo[742]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+Sep 16 07:08:26 lol2 backup.sh[828]: tar: Removing leading `/' from member names
+Sep 16 07:08:33 lol2 sudo[742]: pam_unix(sudo:session): session closed for user root
+Sep 16 07:08:33 lol2 systemd[1]: backup.service: Main process exited, code=exited, status=1/FAILURE
+Sep 16 07:08:33 lol2 systemd[1]: backup.service: Failed with result 'exit-code'.
+Sep 16 07:08:33 lol2 systemd[1]: Failed to start backup.service - Backup /var/log to /opt/backups/logs.
+Sep 16 07:08:33 lol2 systemd[1]: backup.service: Consumed 1.203s CPU time.

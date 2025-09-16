@@ -1,0 +1,4 @@
+○ backup.service - Backup /var/log to /opt/backups/logs
+     Loaded: loaded (/etc/systemd/system/backup.service; disabled; preset: enabled)
+     Active: inactive (dead)
+TriggeredBy: ● backup.timer
